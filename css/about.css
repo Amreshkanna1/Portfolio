@@ -1,0 +1,111 @@
+* {
+    box-sizing: boder-box;
+  }
+  
+  /* scrollbar */
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: crimson;
+  outline: 1px solid slategrey;
+}
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* back button */ 
+  .back a {
+    top:0;
+    position: fixed;
+    margin: 3rem;
+    z-index: 999;
+    width: 3rem;
+    height: 3rem;
+    /* border: 1px solid rgb(3, 3, 3); */
+    border-radius:5rem;
+    padding: .5rem;
+     background:rgb(241, 9, 48); 
+    box-shadow: 0px 10px 20px -10px rgb(7, 1, 1);
+}
+.back img{
+    height: 1rem;
+    padding: 0rem;
+    margin: .5rem auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.my-pic{
+    margin: 0;
+    width: 10rem;
+    height: 10rem;;
+
+}
+.my-pic img{
+    width: 30rem;
+    position: fixed;
+    z-index: 1;
+  
+}
+
+.story{
+    padding: 1rem;
+}
+h5 {
+    color: rgb(50, 241, 98);
+}
+p {
+    text-align: justify;
+    padding: 1rem 2rem;;
+}
+
+.story span{
+  color:crimson;
+}
+
+
+/* footer */
+.social-status{
+    background: #000;
+    width: auto;
+}
+
+  .social {
+    margin: 3rem 1rem;;
+    height: auto;
+    width:4rem;
+    display: block;
+    padding: 1rem;
+  }
+  .social:hover {
+    background:#3b5998;
+    transition: all 1s;
+  }
+  .social img{
+    height: 2rem;
+  }
+  .linkedin:hover {
+    background: #0077b5;
+  }
+  .twitter:hover {
+    background:#1da1f2;
+  }
+  .mail:hover {
+    background:#e02911;
+  }
+  .footnotes p{
+    color:rgb(8, 8, 8);
+  text-align: center;
+  }
+  .footnotes span {
+    color:rgb(0, 102, 255);
+  }
+  
